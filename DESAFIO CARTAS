@@ -9,6 +9,7 @@ int main() {
     float area1;
     float pib1;
     int pontos1;
+// Serão feitas anotações no final de cada um dos códigos para explicar o que está sendo feito em cada um deles.
 
     printf("Cadastro da Carta 1:\n");
     printf("Digite o Estado (A-H): ");
@@ -31,6 +32,16 @@ int main() {
 
     printf("Digite o Numero de Pontos Turisticos: ");
     scanf("%d", &pontos1);
+
+    /* Essa função apresenta a primeira parte do código onde apontaremos e escolheremos as seguintes informações da primeira carta:
+    Estado
+    Código
+    Nome
+    Estado
+    População
+    Área
+    PIB
+    Número de pontos turísticos */
 
     // --------- Carta 2 ---------
     char estado2;
@@ -83,4 +94,11 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n", pontos2);
 
     return 0;
+
+   /* Nessa segunda parte, além de trazer as informações da segunda carta
+   Também coloco o código para rodar as duas cartas afim de melhor comparação
+
+   */
+
+
 }
